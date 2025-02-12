@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Roboto;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 30px;
+    background-color: #1B2F7C;
+    color: #ffffff;
+}
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 20px;
+}
+.header-logo{
+    height: 40px;
+}
+.header-year{
+    margin: 0px;
+    font-size: 12px;
+    padding-left: 12px;
+}
+.header-heading{
+    font-size: 20px;
+    font-weight:bold;
+    margin: 0px;
+    padding-top: 8px;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    padding-right: 13px;
+}
+.contact-logo{
+    height: 20px;
+    margin-top: 13px;
+    padding-right: 5px;
+}
+.contact-logo1{
+    height: 20px;
+    margin-top: 15px;
+    padding-right: 5px;
+}
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 39%;
+}
+
+/*---------------Nav-bar----------------------*/
+
+.nav-container{
+    background-image: url("main-banner.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.nav-link{
+    background-color: #04134F;
+    color: #ffffff;
+    padding: 15px 35px 3px 35px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    opacity: 0.9;
+    justify-content: space-between;
+    margin: 0px;
+}
+.brochure{
+    display: flex;
+    flex-direction: row;
+}
+.Download-cion{
+    padding-left: 10px;
+}
+.get-button{
+    border-radius: 8px;
+    padding: 10px 12px;
+    margin-left: 25px;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+.search-icon{
+    height: 30px;
+    padding-top: 8px;
+}
+
+/*------------------card-container-------------------------*/
+.card-container{
+    border-radius: 30px;
+    margin: 30px;
+    border: 2px solid #E2E7F2;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+.card-sub-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+.card{
+    border: 2px solid #E2E7F2;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+.latest{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.down-up{
+    margin-top: 10px;
+    margin-left: 20px;
+}
