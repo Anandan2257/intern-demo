@@ -1,10 +1,10 @@
 * {
     box-sizing: border-box;
+    font-family: 'Josefin Sans', 'Poppins';
 }
 
 body {
     margin: 0px;
-    font-family: Roboto;
 }
 
 .header-container{
@@ -60,7 +60,7 @@ body {
 .nav-container{
     background-image: url("main-banner.jpg");
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
 }
 .nav-link{
     background-color: #04134F;
@@ -102,6 +102,12 @@ body {
     border: 2px solid #E2E7F2;
     padding: 30px;
     flex-wrap: wrap;
+    background-color: #ffffff;
+}
+.latest-container{
+    background-color: #AACFF6;
+    background-size: cover;
+    height: 100vh;
 }
 .card-sub-container{
     display: flex;
@@ -112,7 +118,7 @@ body {
 .card{
     border: 2px solid #E2E7F2;
     border-radius: 10px;
-    padding: 10px;
+    padding: 3px 2px;
     margin: 5px;
 }
 .latest{
@@ -124,4 +130,13 @@ body {
 .down-up{
     margin-top: 10px;
     margin-left: 20px;
+}
+.items{
+    background-color: #E2E7F2;
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+.items-image{
+    height: 130px;
+    margin:20px;
 }
